@@ -1,0 +1,63 @@
+body{
+    margin: opx;
+    background-color: antiquewhite;
+}
+main{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center; 
+    font-size: 70px;
+}
+h3{
+    text-align: center; 
+    font-size: 70px; 
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: blanchedalmond;
+}
+.navbar li{
+    float:left;
+}
+.aboutme{
+    font-size: 40px;
+}
+.float-left{
+    float: left;
+    margin-right: 10px;
+}
+.float-right{
+    float: right;
+    margin-left: 10px;
+}
+ p{
+    font-size: 30px;
+}
+.small-float-right{
+float: right;
+width: 200px;
+margin-right: 10px;
+}
+.small-float-left{
+float: left;
+width: 200px;
+margin-right: 10px;
+}
