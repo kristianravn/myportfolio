@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactme</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <nav class= "navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="favoritefood.html">Favorite Food</a></li>
+            <li><a href="favoritesports.html">Favorite Sports</a></li>
+            <li><a href="contactme.html">Contact Me </a></li>
+            <li><a href ="portfolio.html">portfolio</a></li>
+        </ul>
+      
+    </nav> 
+
+    <h1>Contact Me</h1>
+
+    <form action="mailto:ravn1982@gmail.com" method = "post" enctype="text/plain">
+        <label for = "name">your name:</label>
+        <input type= "text" id = "name" name="name" required>
+
+        <label for = "email">your email:</label>
+        <input type= "email" id = "email" name="email" required>
+
+        <label for = "message">your message:</label>
+        <textarea id= "message"  name="message" row="4" required></textarea>
+
+        <input type="submit" value="send">
+    </form>
+</body>
+</html>
